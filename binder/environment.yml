@@ -25,7 +25,6 @@ dependencies:
   - libgdal=2.4.0
   - boto3=1.9.91
   - hvplot=0.4.0
-  - nodejs=10.14.2
   - datashader=0.6.9
   - requests=2.21.0
   - pandas=0.24.1
