@@ -1,4 +1,5 @@
 # Manual
+notebooks/*ipynb
 LOCAL-NOTES.txt
 *.ipynb
 *.bak
