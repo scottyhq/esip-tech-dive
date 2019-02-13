@@ -1,4 +1,5 @@
-#
+# Manual
+*.ipynb
 *.bak
 
 # Byte-compiled / optimized / DLL files

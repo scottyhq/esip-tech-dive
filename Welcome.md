@@ -6,9 +6,8 @@
     <img src="./images/xarray.png" height="125"> <img src="./images/dask.png" height="125"> <img src="./images/jupyter.png" height="125">
 </center>
 
-# Pangeo AGU 2018 Tutorial
+# Instructions
 
-Welcome to the Pangeo Tutorial at the 2018 AGU Fall Meeting.
 This is a live session from which you can run Jupyter notebooks showing how to Xarray, Dask, Jupyter.
 Pangeo is a community effort and big-data platform for the geosciences.
 This collection of tutorials is intended to demonstrate some of the operations that can be performed using Pangeo.

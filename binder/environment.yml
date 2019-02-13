@@ -21,7 +21,7 @@ dependencies:
   - ipywidgets=7.4.2
   - graphviz=2.38
   - jupyterlab=0.35.4
-  - nodejs=11.9.0
+  - nodejs=10.12.0
   - libgdal=2.4.0
   - boto3=1.9.91
   - hvplot=0.4.0
