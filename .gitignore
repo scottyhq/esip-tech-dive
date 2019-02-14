@@ -1,7 +1,5 @@
 # Manual
-notebooks/*.ipynb
 LOCAL-NOTES.txt
-*.ipynb
 *.bak
 
 # Byte-compiled / optimized / DLL files
