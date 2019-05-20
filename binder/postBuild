@@ -19,3 +19,30 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
 # of the python that the kernel is run in.
 mkdir -p ${KERNEL_PYTHON_PREFIX}/etc/dask
 cp binder/dask_config.yaml ${KERNEL_PYTHON_PREFIX}/etc/dask/dask.yaml
+
+
+## This section allows for persistant and custom user conda environments
+# From: https://gist.github.com/ocefpaf/863fc5df6ed8444378fbb1211ad8feb1
+
+# Add conda-forge,
+conda config --system --add channels conda-forge
+conda config --system --set channel_priority strict
+conda config --system --set show_channel_urls True
+
+# Make conda faster.
+#conda install pycryptosat --yes 
+#conda config --set sat_solver pycryptosat
+#conda config --set safety_checks disabled
+
+# New environments to user home directory
+conda config --system --append envs_dirs /home/jovyan/my-conda-envs/
+conda config --system --set auto_activate_base False
+
+# Install these packages by default when using `conda create`
+# help with the mkl vs openblas issue (not sure what that is!)
+conda config --system --append create_default_packages ipykernel \
+                      --append create_default_packages pip \
+                      --append create_default_packages "blas=*=openblas"
+
+
+#EOF

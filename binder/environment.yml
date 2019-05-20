@@ -5,6 +5,13 @@ dependencies:
   - conda=4.6
   - python=3.6
   - libgdal=2.4
+  - dask-kubernetes>=0.8.0
+  - tornado=5.1.1
+  - jupyter
+  - jupyterlab
+  - jupyterhub
+  - ipywidgets
+  - nbserverproxy
   - nomkl
   - s3fs
   - gcsfs
@@ -25,5 +32,7 @@ dependencies:
   - pandas
   - geopandas
   - rasterio
+  - pip
   - pip:
     - sat-search
+    - dask_labextension
