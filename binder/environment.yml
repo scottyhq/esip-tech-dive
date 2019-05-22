@@ -34,4 +34,4 @@ dependencies:
   - rasterio=1.0.18
   - pip:
     - sat-search==0.2.0
-    - dask-labextension==0.3.1
+    - dask-labextension==0.3.3
