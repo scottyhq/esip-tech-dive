@@ -2,6 +2,7 @@ name: esip-tech-dive
 channels:
   - conda-forge
 dependencies:
+  - tornado=5.1.1
   - conda=4.6.3
   - nomkl
   - s3fs=0.2.0
