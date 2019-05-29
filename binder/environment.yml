@@ -15,7 +15,7 @@ dependencies:
   - zarr=2.2.0 
   - dask=1.1
   - distributed=1.25.2
-  - dask-kubernetes=0.7.0
+  - dask-kubernetes=0.8.0
   - matplotlib=3.0
   - nbserverproxy=0.8.8
   - jupyter=1.0.0
